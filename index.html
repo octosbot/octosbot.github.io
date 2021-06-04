@@ -1,18 +1,94 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" class="no-js">
 <head>
-	<title>Octos Bot</title>
-	<link href="index.css" rel="stylesheet">
-	<script>window.location.href = 'https://api.whatsapp.com/send?phone=5573982257202&text=Ol%C3%A1%20Octos!';</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="imgs/octos.png" />
+	<title>Venus Template</title>
+    <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|Oxygen:700" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <script src="https://unpkg.com/scrollreveal@4.0.5/dist/scrollreveal.min.js"></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-41507658-2">
+	</script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-41507658-2');
+	</script>
 </head>
-<body> 
+<body class="is-boxed has-animations">
+    <div class="body-wrap boxed-container">
+        <header class="site-header text-light">
+            <div class="container">
+                <div class="site-header-inner">
+                    <div class="brand header-brand">
+                        <h1 class="m-0">
+                            <a href="#">
+								<img style="height: 100px;" class="header-logo-image" src="imgs/octos.png" alt="Logo">
+                            </a>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </header>
 
-	<header>
-		<h1> Octos Bot </h1>
-		<br>
-		<br>
-	</header>
+        <main>
+            <section class="hero text-center text-light">
+				<div style="height: 100vh;" class="hero-particles-container hero-bg">
+					<canvas id="hero-particles"></canvas>
+				    <div class="hero-inner">
+						<div class="hero-copy">
+	                        <h1 class="hero-title mt-0">
+								Octos Bot
+							</h1>
+	                        <p class="hero-paragraph">Bot de Whatsapp para receber Cartas Sinóticas e Avisos de Mau Tempo.</p>
+	                        <div class="hero-cta">
+								<a target="_blank" style="margin-top: 35px;" class="button button-primary button-wide-mobile" href="https://web.whatsapp.com/send?phone=5573982257202&text=Ol%C3%A1+Octos%21">
+									Iniciar Conversa
+									<img src="imgs/whatsapp.png" style="height: 34px;top: -9px;position: relative;left: 18px;">
+								</a>
+							</div>
+						</div>
+						</div>
+                    </div>
+                </div>
+            </section>
 
-<body>
+			<section class="features-extended section">
+                <div class="features-extended-inner section-inner">
+					<div class="features-extended-wrap">
+						<div class="container">
+							<div class="feature-extended">
+								<div class="feature-extended-image">
+									<img class="device-mockup is-revealing" src="imgs/octos1.jpeg" alt="iPhone Feature 01">
+								</div>
+								<div class="feature-extended-body is-revealing">
+									<h3 class="mt-0 mb-16">Cartas Sinóticas</h3>
+									<p class="m-0">Consulte pontualmente ou receba dirariamente as Cartas Sinóticas geradas pela Marinha do Brasil.</p>
+								</div>
+							</div>
+							<div class="feature-extended">
+								<div class="feature-extended-image">
+									<img class="device-mockup is-revealing" src="imgs/octo2.jpeg" alt="iPhone Feature 02">
+								</div>
+								<div class="feature-extended-body is-revealing">
+									<h3 class="mt-0 mb-16">Avisos de Mau Tempo.</h3>
+									<p class="m-0">Consulte pontualmente ou receba diariamente os Avisos de Mau Tempo de sua região de interesse.</p>
+								</div>
+							</div>
+														
+						</div>
+					</div>
+                </div>
+            </section>
+        </main>
+
+    </div>
+
+    <script src="dist/js/main.min.js"></script>
+</body>
 </html>
-➜  octosbot.github.io git:(main) 
